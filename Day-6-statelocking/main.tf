@@ -1,6 +1,6 @@
 
 resource "aws_vpc" "name" {
-    cidr_block = "10.0.0.0/24"
+    cidr_block = "10.0.0.0/16"
     tags = {
       name = "papan"
     }
